@@ -1,11 +1,11 @@
 ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
 2001,,,,,,此刻我坐在修普诺斯赠予的牧羊杖上，夏日高空中微凉的风从我身边呼啸而过，望着脚下的景色，忽然觉得回到地府之前来上一段小插曲也是一件颇有趣味的事情。,CG_Sky_Flight,BGM_Sky,false,"bgfade(CG_Sky_Flight,2)",原稿标注：此段为 CG（我坐在牧羊杖上 + 咪咪 + 日间城市），建议做整幅 CG 而非立绘
-2002,Player,Player_Normal,Player_Normal,,Mimi_Normal,如果忽略掉我身边那只喋喋不休的狗的话......,,,false,"charfadein(L,0.6)",
-2003,Mimi,Mimi_Angry,Player_Normal,,Mimi_Angry,明明电视剧里面的魔法少女都是穿着漂漂亮亮的小裙子去收服精灵卡牌的汪，你怎么就套着个隔夜的制服汪！,,,false,,
-2004,Player,Player_Embarrassed,Player_Embarrassed,,Mimi_Angry,拜托，那也太羞耻了。,,,false,,
-2005,Mimi,Mimi_Angry,Player_Embarrassed,,Mimi_Angry,可是电视剧不是那样演的汪！,,,false,,
-2006,Player,Player_Angry,Player_Angry,,Mimi_Normal,那魔法少女也才是小学初中的年纪吧！怎么轮得到我这个社畜？,,,false,,
-2007,Mimi,Mimi_Normal,Player_Angry,,Mimi_Normal,修普诺斯大人自有他的考量......,,,false,,
-2008,Player,Player_Normal,Player_Normal,,Mimi_Normal,心虚了吧连汪都不说了，其实你自己也想不通吧。,,,false,,
-2009,Mimi,Mimi_Angry,Player_Normal,,Mimi_Angry,不，不许这么诋毁吾汪！,,,false,"shake(dialogue,0.25,6)",
+2002,Player,,Player_Normal,,Mimi_Normal,如果忽略掉我身边那只喋喋不休的狗的话......,,,false,"charfadein(L,0.6)",
+2003,Mimi,,Player_Normal,,Mimi_Angry,明明电视剧里面的魔法少女都是穿着漂漂亮亮的小裙子去收服精灵卡牌的汪，你怎么就套着个隔夜的制服汪！,,,false,,
+2004,Player,,Player_Embarrassed,,Mimi_Angry,拜托，那也太羞耻了。,,,false,,
+2005,Mimi,,Player_Embarrassed,,Mimi_Angry,可是电视剧不是那样演的汪！,,,false,,
+2006,Player,,Player_Angry,,Mimi_Normal,那魔法少女也才是小学初中的年纪吧！怎么轮得到我这个社畜？,,,false,,
+2007,Mimi,,Player_Angry,,Mimi_Normal,修普诺斯大人自有他的考量......,,,false,,
+2008,Player,,Player_Normal,,Mimi_Normal,心虚了吧连汪都不说了，其实你自己也想不通吧。,,,false,,
+2009,Mimi,,Player_Normal,,Mimi_Angry,不，不许这么诋毁吾汪！,,,false,"shake(dialogue,0.25,6)",
 2010,,,Player_Normal,,Mimi_Angry,......,,,false,loadscript(Chapter3),第二幕收尾
