@@ -8,4 +8,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/VNMainMenu.unity
+    guid: ed2e7f43df1fe4f409b68e57c2e8faf5
+  - enabled: 1
+    path: Assets/Scenes/VNGamePlay.unity
+    guid: f93d184c288231e42b9d42dadc0d4741
+  - enabled: 1
+    path: Assets/Scenes/VNDebugScene.unity
+    guid: 6b4217e305a378648850ae86df2a0142
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: cc9e98e313885194c858df40c0fab22e, type: 2}
