@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4cc846722b7846428e2e71babe4d64b, type: 3}
   m_Name: VNProjectConfig
   m_EditorClassIdentifier: 
-  ExcelSourceFolder: {fileID: 102900000, guid: dbeed90c599a0944082350d6fdceaa01, type: 3}
+  ExcelSourceFolder: {fileID: 102900000, guid: 0935de7fcc63c9740bf0f6dd21777353, type: 3}
   CsvOutputFolder: {fileID: 102900000, guid: dbeed90c599a0944082350d6fdceaa01, type: 3}
   AutoConvertExcel: 1
   VNScriptResPath: VNovelizerRes/VNScripts
@@ -42,7 +42,7 @@ MonoBehaviour:
   DefaultHeadFrameSprite: {fileID: 0}
   SoundObjPath: VNovelizerRes/VNPrefabs/Gameplay/SoundObj
   VideoObjPath: VNovelizerRes/VNPrefabs/Gameplay/VideoObj
-  DefaultScriptName: Test101
+  DefaultScriptName: Chapter1
   DefaultLineID: 
   EnableLocalization: 0
   LocalizationCollectionName: VN_Scripts
