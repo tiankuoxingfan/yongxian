@@ -1,0 +1,10 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+9001,,,Player_Normal,,Mimi_Normal,【操作】按住 WASD / 方向键 移动,BG_Ruins_Theater,BGM_Tutorial,false,,建议改为 UI 教学弹窗预制体，不要长期占用对话框
+9002,Player,Player_Normal,Player_Normal,,Mimi_Normal,我按了按水枪，前端立刻兹出了一些水，是正常的，无色无味的自来水。,,,false,playsfx(SFX_WaterSpray),
+9003,Player,Player_Normal,Player_Normal,,Mimi_Normal,这东西真的有用吗？,,,false,,
+9004,Mimi,Mimi_Angry,Player_Normal,,Mimi_Angry,吾给的东西当然是有用的汪！,,,false,,咪咪怒目而视
+9005,,,Player_Normal,,Mimi_Normal,【操作】长按鼠标左键 —— 水枪持续喷水,,,false,,同上，建议 UI 提示
+9006,,,Player_Normal,,Mimi_Normal,【操作】空格 / 鼠标右键 —— 冲刺闪避,,,false,,
+9007,Player,Player_Normal,Player_Normal,,Mimi_Normal,【操作】E 与咪咪交谈 —— 这个好像没什么用，可以去掉了。,,,false,,原稿含调侃台词，保留 E 键说明
+9008,Mimi,Mimi_Angry,Player_Normal,,Mimi_Angry,？不得无礼汪！,,,false,"shake(dialogue,0.25,6)",
+9009,,,Player_Normal,,Mimi_Normal,【操作】1-3 使用道具　·　Q 泼洒圣水雷达,,,false,,教程结束 → 交回关卡玩法

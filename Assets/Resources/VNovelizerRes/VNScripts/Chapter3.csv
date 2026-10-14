@@ -1,0 +1,19 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+3001,,,,,,经过数小时的长途飞行我终于是抵达了旅程的目的地：雅典，作为一个长期坐办公室的社畜，尽管不晕机但在踏上实地的时候还是感到腿软。,BG_Athens_Day,BGM_Athens,false,"bgfade(BG_Athens_Day,2)",
+3002,Player,Player_Sick,Player_Sick,,,口区。,,,false,"charfadein(L,0.6)",
+3003,Mimi,Mimi_Panic,Player_Sick,,Mimi_Panic,喂喂，社畜鬼你可别死在这了汪。,,,false,"charfadein(R,0.6)",
+3004,Player,Player_Sick,Player_Sick,,Mimi_Panic,呕，话说我已经，呕，死了吧。,,,false,,
+3005,,,Player_Sick,,Mimi_Panic,在头晕目眩的同时，我不禁想到身为鬼魂的我究竟能吐出什么东西。,,,false,,
+3006,,,Player_Sick,,Mimi_Panic,咪咪在我身旁一边焦虑的飘来飘去，边说着鬼魂还有水土不服灵力相冲之类的话。迷迷糊糊间手里的牧羊杖却开始发光隐隐牵扯着我往半圆形的遗迹走去。,,,false,playparticle(VFX_StaffGlow)&wait(0.8),牧羊杖发光引导
+3007,,,Player_Normal,,Mimi_Panic,我眨了眨被风吹的酸涩的双眼，忽然发现一个身着白色长袍紫色披风，缠绕着葡萄藤的身影笼罩在遗迹中心的舞台上，直到回过神来时我已经站在了身影边上。,BG_Ruins_Theater,,false,"bgfade(BG_Ruins_Theater,1.5)",
+3008,,,Player_Normal,Dionysus_Normal,Mimi_Shock,等到咪咪气喘吁吁的追赶过来正要开口，又像是见到了什么令他感到害怕的事情顿了顿。,,,false,"charfadein(M,1.2)",酒神投影登场，中槽
+3009,Mimi,Mimi_Shock,Player_Normal,Dionysus_Normal,Mimi_Shock,酒神大人！,,,false,,
+3010,,,Player_Surprised,Dionysus_Normal,Mimi_Shock,我愣了愣立刻学着咪咪的动作行礼却被制止了下来。,,,false,,
+3011,Dionysus,Dionysus_Normal,Player_Surprised,Dionysus_Normal,Mimi_Shock,“修普诺斯的神使不必多礼，”这么说着，一道流光过去，刚才因长时间飞行产生的不适感统统消失了。,,,false,playparticle(VFX_HolyLight)&playsfx(SFX_Heal),
+3012,Dionysus,Dionysus_Smile,Player_Normal,Dionysus_Smile,Mimi_Normal,这是预支的一点点报酬，在下确实有些事情需要麻烦神使。,,,false,,
+3013,,,Player_Surprised,Dionysus_Normal,Mimi_Normal,被称为“酒神”的身影眼看就要鞠躬，我连忙摆手并试图把他扶起来，但我忘记了，此刻我是一个鬼魂，而他只是一个神的投影。,,,false,,
+3014,Dionysus,Dionysus_Normal,Player_Surprised,Dionysus_Normal,Mimi_Normal,在下名为狄俄尼索斯，人类常称呼我为“酒神”，我本是司掌狂欢与戏剧之神，近来由于修普诺斯的神力逸散严重，导致我所负责的人民严重失眠，更无心举办狂欢活动与演出，我正是为了解决这个问题而来。,,,false,,雅典关卡任务说明
+3015,Mimi,Mimi_Proud,Player_Normal,Dionysus_Normal,Mimi_Proud,酒神大人，我正准备教导神使大人该如何回收神力汪。,,,false,,咪咪欠身
+3016,Dionysus,Dionysus_Smile,Player_Normal,Dionysus_Smile,Mimi_Normal,做的不错，待事情结束后，在下会帮你们打开前往帕特农神庙的路，另外还有一份礼物，不过具体是什么暂且容在下先卖个关子。,,,false,,帕特农神庙 = 关卡目标；礼物 = 后续道具伏笔
+3017,,,Player_Normal,Dionysus_Normal,Mimi_Normal,说罢，一阵风吹过，如雾般的身影瞬间消失。,,,false,"charfadeout(M,0.8)&wait(0.5)",
+3018,,,Player_Normal,,Mimi_Normal,......,,,false,loadscript(Tutorial),进入新手关教程

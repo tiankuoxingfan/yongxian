@@ -1,0 +1,24 @@
+ID,Speaker,HeadProfile,CharLeft,CharMid,CharRight,Text,Background,BGM,Voice,Command,Note
+1001,,,,,,我，一个坚持996的社畜，于今天，喜提猝死。至此世界上少了一个兢兢业业的白领，地府多了个无名鬼（吗？,BG_Black,BGM_Prologue,false,"bgfade(BG_Black,2)&wait(0.5)",开场黑屏，建议配打字机音效
+1002,,,,,,似这世界不想让一个累了大半辈子的社畜如愿，我竟听到了一个缥缈如雾中的声音。,BG_Limbo,,false,"bgfade(BG_Limbo,1.5)",背景继承 BGM（留空不切曲）
+1003,Hypnos,Hypnos_Normal,,Hypnos_Normal,,“少女哟！”一个长着洁白双翼的少年突然降临到了我的身边，“你可知道我是谁？”,,,false,"charfadein(M,1)&playparticle(VFX_FeatherLight)",修普诺斯首次登场，中槽
+1004,Player,Player_Surprised,Player_Surprised,Hypnos_Normal,,？,,,false,,主角首次露脸，左槽
+1005,Hypnos,Hypnos_Smile,Player_Surprised,Hypnos_Smile,,吾乃修普诺斯，掌管睡眠的神。,,,false,,
+1006,,,Player_Normal,Hypnos_Normal,,见少女仍是一脸茫然，白色的神自顾自的说了下去。,,,false,,旁白：立绘列必须重复填写，否则该槽会被隐藏
+1007,Hypnos,Hypnos_Normal,Player_Normal,Hypnos_Normal,,很幸运，你被我选中为了代行能力的神使，负责收集我散落人间的神力，当然这可不是为了我，而是为了让全世界的人都睡个好觉！,,,false,,
+1008,Player,Player_Shock,Player_Shock,Hypnos_Normal,,睡个好觉？！,,,false,"shake(dialogue,0.3,8)",关键词触发，对话框抖动
+1009,,,Player_Shock,Hypnos_Normal,,听到这个关键词，少女茫然地脸上终于出现了一丝裂痕。,,,false,,
+1010,Player,Player_Angry,Player_Angry,Hypnos_Normal,,老娘上辈子就是因为加班加班到失眠才猝死的，你个破烂神还想要我死了也接着加班？？,,,false,"shake(dialogue,0.4,10)",
+1011,,,Player_Angry,Hypnos_Normal,,说完这些我转身遵循着鬼的本能向地府飘去。,,,false,,
+1012,Hypnos,Hypnos_Normal,Player_Angry,Hypnos_Normal,,如果说，我能解决你妹妹的困境，顺带拯救她呢？,,,false,,转折钩子：妹妹线伏笔
+1013,,,Player_Angry,Hypnos_Normal,,修普诺斯像是打定主意我不会离开一般，悠悠然的声音从我背后传来。,,,false,,
+1014,Player,Player_Normal,Player_Normal,Hypnos_Normal,,哈，哈哈，社畜的一生放荡不羁爱自由，区区一个亲妹妹怎么可能困得住我......对吧......对，对吗？,,,false,,
+1015,,,Player_Kneel,Hypnos_Normal,,在大脑还没处理完这句话的含义前，我转身滑跪到修普诺斯面前，身体不自然的动了起来。,,,false,"charmove(L,0,-60,0.4)",本行必须用 charmove：左槽已显式填写 Player_Kneel，否则命令无效
+1016,Player,Player_Kneel,Player_Kneel,Hypnos_Normal,,尊敬的修普诺斯大人，请告诉我作为您的使者需要做什么！,,,false,,
+1017,,,Player_Kneel,Hypnos_Sweat,,（虽然有想过这种情况，但妹控还是太吓人了吧。修普诺斯面上不动如山，内心却默默的流了一滴汗。）,,,false,,"心理吐槽，可用不同字体色 t_color(150,150,150)"
+1018,Hypnos,Hypnos_Normal,Player_Normal,Hypnos_Normal,,作为睡眠之神的使者，你需要从雅典开始，前往世界各地收集我的神力，最后再回到雅典来，我会亲自完成你的夙愿并帮助全世界的人安稳入睡。,,,false,,主线目标说明
+1019,,,Player_Normal,Hypnos_Normal,,“在此期间，”只见修普诺斯挥动牧羊杖，一团雾气由虚到实凝固成了一只憨态可掬的牧羊犬。“咪咪会陪伴你，帮助你，并且解答你的各种疑惑。”,,,false,playparticle(VFX_MagicMist)&wait(0.6),雾气成形粒子后再出场
+1020,Player,Player_Surprised,Player_Surprised,Hypnos_Normal,Mimi_Normal,咪，咪咪？,,,false,"charfadein(R,0.8)",咪咪首次登场，右槽
+1021,,,Player_Surprised,Hypnos_Normal,Mimi_Normal,似是感觉到了少女的疑惑，黑白相间的牧羊犬如是说道：,,,false,,
+1022,Mimi,Mimi_Proud,Player_Surprised,Hypnos_Normal,Mimi_Proud,是的汪，吾的名字就叫咪咪汪。,,,false,,
+1023,,,Player_Normal,Hypnos_Normal,Mimi_Normal,......,,,false,loadscript(Chapter2),原稿作者的吐槽“写完这段人生都变得通透了”建议放社群/彩蛋，不入剧本
