@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5505eadd43ebc114b9e9be075c8cb3a1, type: 3}
+  m_Name: Dionysus
+  m_EditorClassIdentifier: 
+  CharacterID: Dionysus
+  ElementSprites:
+  - Element: Normal
+    Sprite: {fileID: 21300000, guid: 1da3a5bdcd594e447b368c2647217171, type: 3}
+  - Element: Smile
+    Sprite: {fileID: 21300000, guid: 4bc4e7792c5bd104ba97431e2a3558fb, type: 3}
+  HeadSprites:
+  - Element: Normal
+    Sprite: {fileID: 21300000, guid: 0719c618fcd7aa54baf9b98b334d584c, type: 3}
+  - Element: Smile
+    Sprite: {fileID: 21300000, guid: 3117c373e5bcb4e4381738ef1bbb0311, type: 3}
+  SpeakerBox: {fileID: 0}
+  HeadFrame: {fileID: 0}
+  scale: 1
+  offset: {x: 0, y: 0}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5505eadd43ebc114b9e9be075c8cb3a1, type: 3}
+  m_Name: Mimi
+  m_EditorClassIdentifier: 
+  CharacterID: Mimi
+  ElementSprites:
+  - Element: Angry
+    Sprite: {fileID: 21300000, guid: c695375b8f2ad6042925cbc70f5cb3ac, type: 3}
+  - Element: Normal
+    Sprite: {fileID: 21300000, guid: 7db85be3df7c5a040bf8946f3b0de1b9, type: 3}
+  - Element: Panic
+    Sprite: {fileID: 21300000, guid: 4696fb4fa5f80874eb7ea08192565427, type: 3}
+  - Element: Proud
+    Sprite: {fileID: 21300000, guid: eb047f010bdf98a4dbe3dc3ac5f4d040, type: 3}
+  - Element: Shock
+    Sprite: {fileID: 21300000, guid: ad7fb89463ed06745a7f7b753c9219f2, type: 3}
+  HeadSprites:
+  - Element: Angry
+    Sprite: {fileID: 21300000, guid: 2d545f74c478c4a459da5f0d1de32400, type: 3}
+  - Element: Normal
+    Sprite: {fileID: 21300000, guid: 8d2da280b14a5ca429b487dd048c0c9a, type: 3}
+  - Element: Panic
+    Sprite: {fileID: 21300000, guid: 7407ac92b94f7d04fbd833e6ba8e1271, type: 3}
+  - Element: Proud
+    Sprite: {fileID: 21300000, guid: e1a80523ebe1d6a4cb9358d8ac2ba2a1, type: 3}
+  - Element: Shock
+    Sprite: {fileID: 21300000, guid: 5bdbeca47e4db93419f7d3021d88f12c, type: 3}
+  SpeakerBox: {fileID: 0}
+  HeadFrame: {fileID: 0}
+  scale: 1
+  offset: {x: 0, y: 0}

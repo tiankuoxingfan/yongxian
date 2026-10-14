@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5505eadd43ebc114b9e9be075c8cb3a1, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  CharacterID: Player
+  ElementSprites:
+  - Element: Angry
+    Sprite: {fileID: 21300000, guid: c76441005e75f744e846dc59db6222ad, type: 3}
+  - Element: Embarrassed
+    Sprite: {fileID: 21300000, guid: 9e3250cd4303464418363b8b7681e874, type: 3}
+  - Element: Kneel
+    Sprite: {fileID: 21300000, guid: 82f1fdd175b0f874096a06bece7b491b, type: 3}
+  - Element: Normal
+    Sprite: {fileID: 21300000, guid: 61f016d2a7f4c364dbd6a80216b88543, type: 3}
+  - Element: Shock
+    Sprite: {fileID: 21300000, guid: 9f117d78499a9724db7f51bee59bc5cf, type: 3}
+  - Element: Sick
+    Sprite: {fileID: 21300000, guid: 62ce8dff5698f304da66f7d3891f748e, type: 3}
+  - Element: Surprised
+    Sprite: {fileID: 21300000, guid: d752f59ad5c5c7245a9e1afa78cb0782, type: 3}
+  HeadSprites:
+  - Element: Angry
+    Sprite: {fileID: 21300000, guid: 99b2ca498a0e4b54fb20924f98a84542, type: 3}
+  - Element: Embarrassed
+    Sprite: {fileID: 21300000, guid: 3e9aba8c461080542a5cfb845728c087, type: 3}
+  - Element: Normal
+    Sprite: {fileID: 21300000, guid: 09b868430af0fa64bb67b9bd245215c6, type: 3}
+  - Element: Surprised
+    Sprite: {fileID: 21300000, guid: 250f3d5e27c40f44aae435b7ccfd4282, type: 3}
+  SpeakerBox: {fileID: 0}
+  HeadFrame: {fileID: 0}
+  scale: 1
+  offset: {x: 0, y: 0}
