@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VNProjectConfig
   m_EditorClassIdentifier: 
   ExcelSourceFolder: {fileID: 102900000, guid: dbeed90c599a0944082350d6fdceaa01, type: 3}
-  CsvOutputFolder: {fileID: 102900000, guid: dbeed90c599a0944082350d6fdceaa01, type: 2}
+  CsvOutputFolder: {fileID: 102900000, guid: dbeed90c599a0944082350d6fdceaa01, type: 3}
   AutoConvertExcel: 1
   VNScriptResPath: VNovelizerRes/VNScripts
   BackgroundResPath: VNovelizerRes/Backgrounds
